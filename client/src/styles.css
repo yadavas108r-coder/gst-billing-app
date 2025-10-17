@@ -1,0 +1,12 @@
+body { font-family: Arial; padding: 16px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+nav button { margin: 0 6px; padding: 6px 10px; }
+.item-row { border: 1px solid #eee; padding: 8px; margin: 6px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.item-row input, .item-row select { padding: 6px; }
+.inv-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.inv-table th, .inv-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+.invoice { border: 1px solid #ccc; padding: 12px; margin-top: 12px; background: #fff; }
+.totals { margin-top: 8px; }
+@media print {
+  @page { size: A4; }
+}
